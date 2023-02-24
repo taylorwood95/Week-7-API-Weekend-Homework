@@ -5,7 +5,7 @@ import GuardianContainer from './containers/GuardianContainer';
 function App() {
   return (
     <div className="App">
-      <h1>API Weekend Homework</h1>
+      
       <GuardianContainer/>
    
      

@@ -1,4 +1,7 @@
 import React from "react";
+import ArticleItem from "./ArticleItem";
+
+
 
 const ArticleList = ({articles}) => {
     const articleItems = articles.map((article, index) => {
@@ -7,7 +10,7 @@ const ArticleList = ({articles}) => {
 
     return (
         <div>
-            <h1>News</h1>
+            <h2>Latest News</h2>
             <ul>{articleItems}</ul>
         </div>
     )
