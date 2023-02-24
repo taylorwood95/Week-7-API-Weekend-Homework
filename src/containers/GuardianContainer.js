@@ -16,14 +16,14 @@ const GuardianContainer = () => {
     const getArticles = () => {
         fetch("https://content.guardianapis.com/search?q=brexit&format=json&api-key=test")
         .then(results => results.json())
-        .then(articlesData => setArticles([articlesData]))
+        .then(articlesData => setArticles(articlesData.response.results))
     }
 
     return (
         <div>
             <h1>Guardian News</h1>
-            <ArticleList articles={articles} />
-            {/* <ArticleItem />  */}
+             <ArticleList articles={articles} /> 
+            
         </div>
     )
 }

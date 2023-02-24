@@ -12,6 +12,8 @@ const ArticleList = ({articles}) => {
         <div>
             <h2>Latest News</h2>
             <ul>{articleItems}</ul>
+        
+          
         </div>
     )
 }
