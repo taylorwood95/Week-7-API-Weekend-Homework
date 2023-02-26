@@ -26,7 +26,8 @@ const GuardianContainer = () => {
 
     return (
         <div>
-            <h1>Guardian News</h1>
+            <header className="main-title">Guardian News</header>
+            
             <ArticleSelector articles={articles} handleSelectChange={handleSelectChange}/>
              <ArticleList articles={articles} /> 
              

@@ -5,8 +5,8 @@ const ArticleItem = ({article, index}) => {
 
     return (
         <div>
-            <ul value={index}>Headline: {article["webTitle"]}</ul>
-            <a target= "_blank" href={article["webUrl"]}>Click for more info</a>
+            <ul className = "ul-list"value={index}>{article["webTitle"]}</ul>
+            <a className="a-tag" target= "_blank" href={article["webUrl"]}>Click for more info...</a>
         </div>
     )
 }

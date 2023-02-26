@@ -10,7 +10,8 @@ const ArticleList = ({articles}) => {
 
     return (
         <div>
-            <h2>Latest News</h2>
+            
+            <header className="latest-news">Latest News</header>
             <ul>{articleItems}</ul>
         
           
